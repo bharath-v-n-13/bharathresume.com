@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, it's Me</h3>
+            <h1>Bharath V N</h1>
+            <h3>And I'm a <span class="typing-text"></span></h3>
+            <p>Welcome to my personal portfolio website.</p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/yourusername" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/bharath_v_n_13" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/bharath-v-n-13" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://wa.me/9100565788" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/vn-bharath-29435b24a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="BB.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm <strong>Bharath V N</strong>, a passionate and dedicated software developer with experience in building web applications. I enjoy solving complex problems and continuously learning new technologies to improve my skills.
+                </p>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <span><strong>Name:</strong></span>
+                        <span>Bharath V N</span>
+                    </div>
+                    <div class="info-item">
+                        <span><strong>Age:</strong></span>
+                        <span>21</span>
+                    </div>
+                    <div class="info-item">
+                        <span><strong>Email:</strong></span>
+                        <span>vnbharath931@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span><strong>Phone:</strong></span>
+                        <span>9100565788</span>
+                    </div>
+                    <div class="info-item">
+                        <span><strong>Location:</strong></span>
+                        <span>Tirupati,India</span>
+                    </div>
+                    <div class="info-item">
+                        <span><strong>Freelance:</strong></span>
+                        <span>Available</span>
+                    </div>
+                </div>
+                <a href="Bharath_updated_resume.pdf" class="btn-box" download>Download RESUME</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="skills section">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <h3>HTML</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>CSS</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>JavaScript</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="75%"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>Java</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="80%"></div>
+            </div>
+        </div>
+        <div class="skill-item">
+            <h3>Python</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="70%"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <h2>My Portfolio</h2>
+        <p>This is the Portfolio section.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact" class="contact section">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out by filling in the form below.</p>
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-box">Send Message</button>
+    </form>
+</section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
